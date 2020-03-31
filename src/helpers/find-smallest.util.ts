@@ -1,4 +1,4 @@
-export function findSmallest<T = any>(source: T): number {
+export function findSmallest<T = number>(source: T[]): number {
     let smallestIdx = 0;
     let smallest = source[smallestIdx];
 
