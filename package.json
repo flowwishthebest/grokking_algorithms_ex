@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest -c ./jest.config.json"
+    "test": "jest -c ./jest.config.json",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
