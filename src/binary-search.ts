@@ -1,4 +1,4 @@
-export function binarySearch<T = any>(source: T[], target: T): number | null {
+export function binarySearch<T = number>(source: T[], target: T): number | null {
     let low = 0;
     let high = source.length - 1;
 
